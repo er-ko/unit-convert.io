@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.select2-dropdown {
+	border: none !important;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.1)
+}
+.select2-container .select2-selection--single {
+	height: 64px !important;
+	line-height: 64px !important;
+}
+
+.select2-container--default .select2-selection--single {
+	border: none !important;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.1);
+	height: 64px !important;
+	line-height: 64px !important;
+	border-radius: .75rem !important;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 16px !important;
+	padding-right: 28px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 64px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 20px !important;
+	right: 9px !important;
+}
