@@ -790,7 +790,7 @@
                 } else if ($input === 'km/h') {
                     switch ($output) {
                         case "mph":
-                            $('.result').text(parseFloat($number / 0.621371192));
+                            $('.result').text(parseFloat($number * 0.621371192));
                             $('.result-info').text($number + ' ' + $input + ' = ' + parseFloat($number * 0.621371192).toFixed(2) + ' ' + $output);
                             break;
                         default: 
