@@ -4,7 +4,7 @@
     <x-slot name="meta_keywords">{{ 'unit, convert, converter, io' }}</x-slot>
 
     <div class="w-full">
-        <x-input id="number" type="number" class="w-full px-4 py-5 rounded-xl" placeholder="number" />
+        <x-input id="number" type="number" class="w-full px-4 py-5 rounded-xl border-0 ring-0" placeholder="number" autofocus />
     </div>
     <div class="mt-3 w-full">
         <select class="form-control select2 w-full" id="input-unit" placeholder="{{ __('messages.input_unit') }}">
